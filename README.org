@@ -1,0 +1,25 @@
+* Bunny-Test
+
+  I like writing testers.  There is something very satisfying about building a low level tool like a unit-tester.
+
+  This is going to be written a little differently from a lot of node.js out there.  In particular there is a [[./bunny-test.org]] file that will
+  actually contain all the source code.  I'll be using org-babel to document, and weave the source-code together.
+
+** Mission
+   To make a small, simple to code, simple to use unit tester that is easily extensible, focuses on functional programming concepts,
+   provides tests and suites as first class objects and plugs in nicely to emacs--but is usable from the shell or possibly the browser just
+   as easily.
+
+** Build instructions
+   1. Get Emacs
+   2. Make sure you have org-mode v7.4 or greater
+   3. Learn how to use Org-Babel
+   4. Weave the Code.
+   5. Profit!
+
+   Simple, really.
+
+** Documentation
+
+   Documentation is in the same place as the code, [[./bunny-test.org]].  This is a bundle of user documentation, developer documentation and
+   source-code.  It's not as scary as you might think.

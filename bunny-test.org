@@ -1,0 +1,35 @@
+* Bunny-Test ... Simple testing!
+
+** Mission
+   To make a small, simple to code, simple to use unit tester that is easily extensible, focuses on functional programming concepts,
+   provides tests and suites as first class objects and plugs in nicely to emacs--but is usable from the shell or possibly the browser just
+   as easily.
+
+** Design of the burrow 
+   There are 2 basic structures:
+   - An Assertion that a given condition is true
+   - A Bundle of assertions.
+
+   The Assertion should be able to be executed inside of a protected context of sorts, and the execution of it should not bring down the
+   system.  If the assertion fails, either by returning false, or throwing an error, it should not stop the execution of tests--unless we
+   really need it to!
+
+   The creation of an assertion should be:
+   - Easy.  Code like assert(...somecondition...)
+   - Extensible.  Writing assertEqual(num,num....) should be painless
+   - Expositional. Which is to say, it should be informative. (sorry, couldn't resist. 3 'E's)  
+
+   A bundle of assertions should be able to get a handle of the assertion context and execute code before and after that context on every
+   assertion inside of that bundle.
+
+   A bundle should be able to contain more bundles or tests.  
+
+   Finally, an assertion or a bundle should be "first-class".  You should be able to pass around either object, and inspect it at will.
+
+*** TODO figure out a better headline for this.  Architecture is not right at all, cause it invokes something on the scale of a building, or a CPU.  I want something on the scale of a burrow
+
+
+** Writing a Test
+   
+#+BEGIN_SRC js
+#+END_SRC

@@ -1,0 +1,16 @@
+{
+  "author": "Jonathan Arkell <jonnay@jonnay.net> (http://www.jonnay.net)",
+  "name": "bunny-test",
+  "description": "Simple and powerful unit testing.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonnay/bunny-test",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jonnay/bunny-test.git"
+  },
+  "engines": {
+    "node": "~v0.5.0-pre"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
